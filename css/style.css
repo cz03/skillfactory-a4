@@ -363,17 +363,21 @@ header {
 .cards-list {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	align-items: center;
 }
 
 .cards-list .brick {
-	width: 23%;
+	position: relative:
+	width: 22%;
 	min-width: 150px;
 	height: 212px;
 	background-color: #FF3F3F;
+	margin-top: 20px;
+	margin-right: 20px;
 }
 
 .cards-list p {
+	width: 100%;
 	color: white;
 	text-align: center;
 	visibility: hidden;
